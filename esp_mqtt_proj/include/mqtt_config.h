@@ -15,13 +15,13 @@ typedef enum{
 
 /*DEFAULT CONFIGURATIONS*/
 
-#define MQTT_HOST            "139.129.226.12" // the IP address or domain name of your MQTT server or MQTT broker ,such as "mqtt.yourdomain.com"
+#define MQTT_HOST            "公网IP" // the IP address or domain name of your MQTT server or MQTT broker ,such as "mqtt.yourdomain.com"
 #define MQTT_PORT            1883    // the listening port of your MQTT server or MQTT broker
 #define MQTT_CLIENT_ID        "jianhua"    // the ID of yourself, any string is OK,client would use this ID register itself to MQTT server
-#define MQTT_USER            "micronetlock" // your MQTT login name, if MQTT server allow anonymous login,any string is OK, otherwise, please input valid login name which you had registered
-#define MQTT_PASS            "micronetlock..." // you MQTT login password, same as above
-#define STA_SSID ""    // your AP/router SSID to config your device networking
-#define STA_PASS "" // your AP/router password
+#define MQTT_USER            "账号" // your MQTT login name, if MQTT server allow anonymous login,any string is OK, otherwise, please input valid login name which you had registered
+#define MQTT_PASS            "密码" // you MQTT login password, same as above
+#define STA_SSID ""    // your AP/router SSID to config your device networking AP不用管
+#define STA_PASS "" // your AP/router password不用管
 
 #define DEFAULT_SECURITY    NO_TLS      // very important: you must config DEFAULT_SECURITY for SSL/TLS
 
